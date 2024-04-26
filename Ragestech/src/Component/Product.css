@@ -1,0 +1,101 @@
+* {
+    color: white;
+  }
+  .main-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(8,111,234);
+    background: linear-gradient(180deg, rgba(8,111,234,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+  .product-nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    background-color: #073163;
+    width: 80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 1vw;
+    border-radius: 20px;
+    height: 5.5vw;
+    line-height: 6px;
+    overflow: hidden;
+  }
+  
+  .product-nav ul>li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      list-style-type: none;
+  }
+  .product-nav ul>li p{
+      font-size: 10px;
+  }
+  
+  .bi{
+    color: red;
+    font-size: 24px;
+  }
+  .producth1{
+      color: #073163;
+      margin-top: 2vw;
+  }
+  .prouct-image{
+      margin-top: 5vw;
+  }
+  .leftimage{
+      margin-right: 10vw;
+      margin-left: 0;
+      width: 20vw;
+  }
+  .quadDrone{
+      width: 30vw;
+      margin-left: 15vw;
+      margin-right: 0;
+  }
+  .miniDrone{
+      width: 30vw;
+      margin-right: 10vw;
+      margin-left: 0;
+  }
+  
+  .dronecard-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid #fff; */
+    gap: 7vw;
+    flex-wrap: wrap;
+  }
+  .dronecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  
+  }
+  .diif-image{
+   width: 320px;
+   height: 400px;
+   border-radius: 15px;
+   
+  }
+  .dronetext{
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .viewallproduct{
+    font-size: 24px;
+    margin-top: 1vw;
+    color: #063f84;
+    font-weight: 800;
+  }

@@ -1,0 +1,29 @@
+.main-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+    /* border: 5px solid #fff; */
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-left: 7vw;
+}
+p{
+    margin-right: 5vw;
+}
+
+.logoimg{
+    margin: 2vw;
+    width: 200px;
+    height: 220px;
+   
+}
+.logoimg:first-child{
+    width: 220px;
+}
+.heading1{
+    font-size: 3.5vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}

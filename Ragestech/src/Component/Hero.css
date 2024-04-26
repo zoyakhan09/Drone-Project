@@ -1,0 +1,75 @@
+.carousel-item {
+    height: 89vh;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    letter-spacing: 1px;
+  }
+  .technology-texth1 {
+    color: red;
+  }
+  .card-heading {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+  }
+  .view-all-services {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    margin: 1vw;
+    color: white;
+  }
+  
+  .Card-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* border: 5px solid white; */
+    max-width:fit-content;
+    max-height:fit-content;
+    gap: 5vw;
+    flex-wrap:wrap;
+    margin-left: 2vw;
+    
+  }
+  
+  .Card-bdy:last-child{
+    margin-right: 3vw;
+  }
+  
+  .Card-bdy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(208, 32, 32);
+    background: linear-gradient(
+      180deg,
+      rgba(208, 32, 32, 1) 49%,
+      rgba(7, 49, 99, 1) 65%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    color: white;
+    border-radius: 20px;
+    width: 330px;
+    height: 360px;
+    text-align:justify;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    
+  }

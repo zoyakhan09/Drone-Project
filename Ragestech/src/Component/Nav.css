@@ -1,0 +1,37 @@
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: black !important;
+}
+.navbar-brand{
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+    overflow: hidden;
+    position: relative;
+    left: 5vw;
+}
+
+.navbar-brand:hover{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    overflow: hidden;
+    position: relative;
+    left: 5vw;
+
+}
+.nav-link{
+    color: white;
+    position: relative;
+    left: 10vw;
+    font-size: 20px;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+.nav-link:hover {
+    color: red; /* Change to desired hover color */
+}
+
+.nav-item.active .nav-link {
+    color: red; /* Change to desired active link color */
+}
